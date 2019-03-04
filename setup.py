@@ -48,6 +48,7 @@ REQUIRED_PKGS = [
 TESTS_REQUIRE = [
     'jupyter',
     'pytest',
+    'apache-beam',
 ]
 
 if sys.version_info.major == 3:
